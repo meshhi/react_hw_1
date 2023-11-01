@@ -1,0 +1,22 @@
+.main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-style: dashed;
+    padding: 1rem;
+    max-width: 500px;
+}
+
+.description {
+    text-align: start;
+}
+
+.purchase__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid #eee;
+    margin-top: 1rem;
+}
